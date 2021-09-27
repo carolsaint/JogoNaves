@@ -417,22 +417,22 @@ function energia() {
 	
     if (energiaAtual==3) {
         
-        $("#energia").css("background-image", "url(/jogo1/imgs/energia3.png)");
+        $("#energia").css("background-image", "url(jogo1/imgs/energia3.png)");
     }
 
     if (energiaAtual==2) {
         
-        $("#energia").css("background-image", "url(/jogo1/imgs/energia2.png)");
+        $("#energia").css("background-image", "url(jogo1/imgs/energia2.png)");
     }
 
     if (energiaAtual==1) {
         
-        $("#energia").css("background-image", "url(/jogo1/imgs/energia1.png)");
+        $("#energia").css("background-image", "url(jogo1/imgs/energia1.png)");
     }
 
     if (energiaAtual==0) {
         
-        $("#energia").css("background-image", "url(/jogo1/imgs/energia0.png)");
+        $("#energia").css("background-image", "url(jogo1/imgs/energia0.png)");
         
         //Game Over
         gameOver();
